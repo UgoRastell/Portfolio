@@ -19,3 +19,13 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+body.dark {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+}
+
+body.light {
+  --background: #ffffff;
+  --foreground: #171717;
+}
